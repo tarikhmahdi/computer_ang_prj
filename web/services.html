@@ -1,0 +1,14 @@
+
+<h1>Services</h1>
+<div ng-repeat="service in services">
+<div class="row service">
+    <div class="col-md-2">
+        <img ng-src="images/{{service.image}}" alt=""/>
+    </div>
+    <div class="col-md-10">
+        <h3>{{service.name}}</h3>
+        <p>{{service.desc}}</p>
+        <a href="#/product" class="btn btn-primary">Details</a>
+    </div>
+</div>
+</div>
